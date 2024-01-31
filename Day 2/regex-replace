@@ -1,0 +1,13 @@
+import re
+
+text = " I am from India. I love India"
+pattern = r"India"
+
+
+replace = r"Ireland"
+
+new_text = re.sub(pattern, replace, text)
+print("New text:" + new_text)
+
+
+#op- New text: I am from Ireland. I love Ireland
