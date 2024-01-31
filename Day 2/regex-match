@@ -1,0 +1,13 @@
+import re
+
+text = " I am from India. I love India"
+pattern = r"India"
+
+
+match = re.match(pattern, text)
+if match:
+    print("Pattern found:", match.group())
+
+
+
+#o/p - blank because it looks for the pattern at the start itself.
