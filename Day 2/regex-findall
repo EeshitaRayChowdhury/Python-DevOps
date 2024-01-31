@@ -1,0 +1,11 @@
+import re
+
+text = " I am from India"
+pattern = r"India"
+
+
+search = re.search(pattern, text)
+if pattern:
+    print("Pattern found:", search.group())
+
+# Pattern found: India
