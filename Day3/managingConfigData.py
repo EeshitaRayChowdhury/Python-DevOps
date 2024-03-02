@@ -6,11 +6,11 @@ max_connections = 3000
 
 # Print the configurations
 print(f"server_name : {server_name}")
-print(f"port : {port})
+print(f"port : {port}")
 print(f"HTTPS Enabled: {is_https_enabled}")
 print(f"Max Connections: {max_connections}")
 
+#Update port value
+port = 445
 
-port = 443
-
-print(f"Updated port value: {port}")
+print(f"Port updated : {port}")
