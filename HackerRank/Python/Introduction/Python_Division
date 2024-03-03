@@ -1,0 +1,12 @@
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    
+    print(a//b)   
+    print(float(a/b))
+
+#######
+Important notes:- In Python, we can perform floor division 
+also sometimes known as integer division) using the // operator.
+This operator will divide the first argument by the second and round the result down to the nearest whole number,
+making it equivalent to the math.
