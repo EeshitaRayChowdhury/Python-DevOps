@@ -1,0 +1,17 @@
+if __name__ == '__main__':
+    sheet = []
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        sheet.append([name, score])
+    # flatten list
+    only_floats = list(set([item for sublist in sheet for item in sublist if not isinstance(item,str)]))
+    only_floats.sort()
+    second = only_floats[1]
+    names = []
+    for i in sheet:
+        if i[1] == second:
+            names.append(i[0])
+    names.sort() 
+    for _ in names:
+        print(_)
