@@ -5,6 +5,6 @@ def fibonacci(n):
 
 
 if __name__ == '__main__':
-    term = 5
+    term = 5 #or use term = int(input()) for user input
     for i in range(term):
         print(fibonacci(i))
