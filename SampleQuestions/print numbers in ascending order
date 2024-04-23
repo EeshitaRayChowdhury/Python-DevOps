@@ -1,0 +1,17 @@
+def ascend(user_input):
+
+    for i in range(len(user_input)):
+        for j in range(len(user_input)):
+            temp = user_input[j]
+            user_input[j] = user_input[i]
+            user_input[i] = temp
+
+    return user_input
+
+
+
+
+
+if __name__ == '__main__':
+    user_input = [1,4,0,3,2]
+    print(ascend(user_input))
